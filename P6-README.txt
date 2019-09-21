@@ -10,3 +10,6 @@ SELECT COUNT(Id) FROM posts where Id > 57550000
 
 SELECT Id, Score, Body, Title, Tags FROM posts where Id > 57643415
 
+2nd query :
+
+SELECT Id, Score, Body, Title, Tags FROM posts where Id < 57560001 AND Id >= 57500000
